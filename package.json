@@ -1,0 +1,16 @@
+{
+  "name": "hw2-docker-compose-webapp",
+  "version": "1.0.0",
+  "description": "Multi-container Express + PostgreSQL app managed with Docker Compose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.13.1"
+  }
+}
